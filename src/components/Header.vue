@@ -131,6 +131,7 @@ section {
   #openBtn {
     display: flex;
     margin-right: 3rem;
+    align-items: center;
   }
 }
 

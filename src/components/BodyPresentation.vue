@@ -73,7 +73,6 @@ section div img{
 }
 
 section div:nth-of-type(odd){
-    flex-direction: row;
     background-color: var(--second_color-lt);
     /* box-shadow: var(--box_shadow-second-lt); */
     color: var(--text_color-lt);
@@ -166,6 +165,15 @@ section div:nth-of-type(even) h1{
 
     section div div {
         flex-direction: column;
+    }
+
+    section div div {
+        flex-direction: column-reverse;
+    }
+
+    section div:nth-of-type(even) h1[data-v-5bc437e8] {
+        display: flex;
+        justify-content: center;
     }
 
     .title-landing{
