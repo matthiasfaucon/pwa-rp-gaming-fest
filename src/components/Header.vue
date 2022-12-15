@@ -88,6 +88,7 @@ section {
 #burger-menu{
   top: 0;
   left: 0;
+  z-index: 999;
   position: fixed;
   display: flex;
   width: 15rem;

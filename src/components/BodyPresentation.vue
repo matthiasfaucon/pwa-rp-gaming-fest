@@ -54,6 +54,7 @@ section div {
 
 section div div {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
     column-gap: 10%;
@@ -85,7 +86,6 @@ section div:nth-of-type(even){
 }
 
 section div:nth-of-type(even) div{
-    flex-direction: row-reverse;
     background-color: var(--main_color-lt);
     color: white;
 }
@@ -110,6 +110,7 @@ section div:nth-of-type(even) h1{
     position: absolute;
     z-index: 2;
     display: flex;
+    flex-direction: row;
     background-color: transparent;
     height: max-content;
 }
@@ -162,6 +163,10 @@ section div:nth-of-type(even) h1{
 
 @media screen and (max-width: 1024px){
 
+    .title-landing{
+        font-size: 2.5rem;
+    }   
+
     p,h1,h2{
         text-align: center;
     }
@@ -184,6 +189,10 @@ section div:nth-of-type(even) h1{
 
 @media screen and (max-width: 768px){
 
+    .title-landing{
+        font-size: 2rem;
+    }   
+
     section div img{
         margin-bottom: 2rem;
         width: 70%;
@@ -192,10 +201,14 @@ section div:nth-of-type(even) h1{
 
 @media screen and (max-width: 480px){
 
-section div img{
-    margin-bottom: 2rem;
-    width: 100%;
-}
+    .title-landing{
+        font-size: 1.5rem;
+    }   
+
+    section div img{
+        margin-bottom: 2rem;
+        width: 100%;
+    }
 }
 
 </style>
