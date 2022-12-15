@@ -14,6 +14,7 @@
             <h1>Un évènement, un nouvel univers</h1>
             <div>
                 <p>L’association RPG Normandie organise le samedi 21 et dimanche 22 janvier 2023 le « RPGaming Fest », un festival du jeu de rôle. Durant ces deux jours, les visiteurs seront invités à prendre part à une aventure fantastique et (re)découvrir le monde du jeu de rôle.</p>
+                <img src="@/assets/photos_site/hibou.png" alt="plateau de jeux" />
             </div>
         </div>
         <div id="second-presentation">
@@ -54,7 +55,6 @@ section div {
 
 section div div {
     display: flex;
-    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
     column-gap: 10%;
@@ -73,6 +73,7 @@ section div img{
 }
 
 section div:nth-of-type(odd){
+    flex-direction: row;
     background-color: var(--second_color-lt);
     /* box-shadow: var(--box_shadow-second-lt); */
     color: var(--text_color-lt);
@@ -163,6 +164,10 @@ section div:nth-of-type(even) h1{
 
 @media screen and (max-width: 1024px){
 
+    section div div {
+        flex-direction: column;
+    }
+
     .title-landing{
         font-size: 2.5rem;
     }   
@@ -175,8 +180,8 @@ section div:nth-of-type(even) h1{
         width: 100%;
     }
 
-    section div.first-presentation div, section div.second-presentation div, section div:nth-of-type(even) h1{
-        flex-direction: column-reverse;
+    section {
+        flex-direction: column;
         text-align: center;
         justify-content: center;
     }

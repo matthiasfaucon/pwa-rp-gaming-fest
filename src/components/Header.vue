@@ -52,7 +52,7 @@ section {
   background-color: var(--text_color-lt);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
   max-width: 100vw;
   height: 15vh;
 }
