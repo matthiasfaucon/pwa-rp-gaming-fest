@@ -26,6 +26,7 @@
 </template>
   
 <script lang="ts" setup>
+import InfosUtiles from './InfosUtiles.vue';
 </script>
   
 <style scoped>
