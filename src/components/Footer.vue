@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="menu">
+        <div class="menu footer">
             <router-link to="/">Présentation</router-link>
             <router-link to="/programme">Programme</router-link>
             <router-link to="/contact">Contact</router-link>

@@ -19,7 +19,7 @@
       </div>
     </div>
   
-    <div class="menu">
+    <div class="menu header">
       <div class="links">
         <router-link to="/">Présentation</router-link>
         <router-link to="/programme">Programme</router-link>

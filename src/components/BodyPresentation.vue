@@ -104,7 +104,7 @@ section div:nth-of-type(even) h1{
     }
 
     section div p {
-        width: 90%;
+        width: 100%;
     }
 
     section div.first-presentation div, section div.second-presentation div, section div:nth-of-type(even) h1{

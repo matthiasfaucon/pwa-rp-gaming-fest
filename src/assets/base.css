@@ -129,7 +129,7 @@ p, a {
   h1{
     font-size: 24px;
   }
-  
+
   .menu {
     display: none;
   }
@@ -137,10 +137,6 @@ p, a {
 }
 
 @media screen and (max-width: 480px){
-
-  p{
-    font-size: 12px;
-  }
 
   h2{
     font-size: 16px;

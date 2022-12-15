@@ -34,8 +34,8 @@ section {
   justify-content: center;
   align-items: center;
   max-width: 100vw;
-  height: 77vh;
   padding: 2rem;
+  margin: 1rem 0 1rem 0;
 }
 
 h1{
