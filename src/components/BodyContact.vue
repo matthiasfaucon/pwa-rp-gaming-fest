@@ -11,9 +11,9 @@
           <p>Alors surtout n'hésite pas, nous essaierons de répondre, au plus de demandes et nous nous ferons un réel
             plaisir de lire vos messages</p>
         </div>
-        <button>
-          <p>Nous contacter</p>
-        </button>
+        <a class="envoie-mail" href="mailto:">
+            Nous contacter
+        </a>
       </div>
       <div class="right">
         <img src="@/assets/photos_site/contact.jpeg" />
@@ -44,7 +44,7 @@ h1{
 
 section div.contenus {
   display: flex;
-  width: 95%;
+  width: 85%;
 }
 
 section div .left {
@@ -75,9 +75,10 @@ section div .right img{
   height: 100%;
 }
 
-button {
+.envoie-mail {
   box-shadow: 3px 3px 15px rgb(0 0 0 / 10%);
-  width: max-content;
+  width: fit-content;
+  text-decoration: none;
   padding: 0.8rem;
   border-radius: 20px;
   outline: none;

@@ -6,7 +6,7 @@
             <p>Explorez-les et découvrez des jeux interactifs, qui vous plongerons dans un autre monde, le temps d'une partie !</p>
         </div>
         <div class="text">
-            <a href="">Prenez votre place</a>
+            <a href="https://www.eventbrite.fr/e/billets-rpgaming-fest-488602803137?aff=ebdssbdestsearch&keep_tld=1">Prenez votre place</a>
         </div>
     </section>
 </template>
