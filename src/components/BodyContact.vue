@@ -11,7 +11,7 @@
           <p>Alors surtout n'hésite pas, nous essaierons de répondre, au plus de demandes et nous nous ferons un réel
             plaisir de lire vos messages</p>
         </div>
-        <a class="envoie-mail" href="mailto:">
+        <a class="envoie-mail" href="mailto:contact@casoni.fr">
             Nous contacter
         </a>
       </div>

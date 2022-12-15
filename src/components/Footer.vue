@@ -1,9 +1,9 @@
 <template>
     <section>
-        <div class="menu footer">
-            <router-link to="/">Présentation</router-link>
-            <router-link to="/programme">Programme</router-link>
-            <router-link to="/contact">Contact</router-link>
+        <div class="footer">
+            <a href=""><img src="@/assets/facebook.png"/></a>
+            <a href=""><img src="@/assets/instagram.png"/></a>
+            <a href=""><img src="@/assets/twitter.png"/></a>
         </div>
     </section>
 </template>
@@ -21,12 +21,24 @@ section {
     align-items: center;
     max-width: 100vw;
     background-color: var(--text_color-lt);
-    height: 5rem;
+    height: 15vh;
 }
 
-.menu{
+
+.footer {
     height: 100%;
-    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
 }
 
+.footer a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.footer a img {
+    height: 40%;
+}
 </style>
