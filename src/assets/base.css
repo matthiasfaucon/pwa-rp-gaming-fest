@@ -1,0 +1,148 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@font-face {
+  font-family: "Constantia";
+  src: url("@/assets/fonts/Constantia_Bold/Constantia_Bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("@/assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+:root {
+  --main_color-lt: #eb2026;
+  --second_color-lt: #f8f8f8;
+  --text_color-lt: #282828;
+  --second_text_color-lt: #f8f8f8;
+  --box_shadow-default-lt: -2px 0px 15px -5px var(--main_color-lt);
+  --box_shadow-second-lt: -2px 0px 15px -5px var(--second_color-lt);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main_color-bt: #eb2026;
+    --second_color-bt: #282828;
+    --text_color-bt: #f8f8f8;
+    --box_shadow-default-lt: -2px 0px 15px -5px var(--main_color-lt);
+    --box_shadow-second-lt: -2px 0px 15px -5px var(--second_color-lt);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  max-height: 100vh;
+  color: var(--text_color-lt);
+  background: var(--second_color-lt);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: 'Constantia';
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Book antiqua';
+  font-weight: 600;
+  font-size: 24px;
+}
+
+p, a {
+  font-family: 'Century Gothic';
+  /* font-family: 'Poppins'; */
+  font-size: 17px;
+}
+
+.menu {
+  padding-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.7rem;
+}
+
+.menu .links {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.menu a {
+  color: var(--second_text_color-lt);
+  text-decoration: none;
+  font-family: 'Century Gothic';
+  font-weight: 400;
+}
+
+.menu a.billeterie {
+  background-color: var(--main_color-lt);
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  border-radius: 10px;
+  border: 3px solid var(--main_color-lt);
+}
+
+.menu a.billeterie:hover {
+  border: 3px solid var(--second_color-lt);
+}
+
+.menu a:hover {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1024px){
+  p, a{
+    font-size: 16px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+  h1{
+    font-size: 28px;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  p, a{
+    font-size: 14px;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
+}
+
+@media screen and (max-width: 480px){
+
+  p{
+    font-size: 12px;
+  }
+
+  h2{
+    font-size: 16px;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+
+}
