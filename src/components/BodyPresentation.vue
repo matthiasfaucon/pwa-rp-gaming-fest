@@ -215,10 +215,21 @@ section div:nth-of-type(even) h1{
         margin-bottom: 2rem;
         width: 70%;
     }
+    .link-landing{
+        left: 11%;
+    }
 }
 
 @media screen and (max-width: 480px){
 
+    .landing{
+        padding: 3rem;
+    }
+    .landing .ancres {
+        flex-direction: column;
+        row-gap: 0.4rem;
+        align-items: flex-start;
+    }
     .title-landing{
         font-size: 1.5rem;
     }   
