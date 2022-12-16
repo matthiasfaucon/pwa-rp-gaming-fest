@@ -16,6 +16,9 @@
         <router-link to="/">Présentation</router-link>
         <router-link to="/programme">Programme</router-link>
         <router-link to="/contact">Contact</router-link>
+        <div class="billeterie">
+          <router-link class="billeterie" to="/billeterie">Billeterie</router-link>
+        </div>
       </div>
     </div>
   
@@ -52,7 +55,6 @@ section {
   background-color: var(--text_color-lt);
   display: flex;
   justify-content: space-between;
-
   max-width: 100vw;
   height: 15vh;
 }
@@ -93,7 +95,7 @@ section {
   display: flex;
   width: 15rem;
   height: 100vh;
-  background-color: var(--main_color-lt);
+  background-color: var(--text_color-lt);
 }
 
 #burger-menu .links {

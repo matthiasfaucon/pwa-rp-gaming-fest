@@ -7,6 +7,7 @@
                 <a class="ancre" href="#first-presentation">Évènement</a>
                 <a class="ancre" href="#second-presentation">Donjons</a>
                 <a class="ancre" href="#third-presentation">Ateliers</a>
+                <a class="ancre" href="#fourth-presentation">Informations</a>
             </div>
             <div class="opacity"></div>
         </div>
@@ -197,6 +198,10 @@ section div:nth-of-type(even) h1{
     section div img{
         margin-bottom: 2rem;
         width: 50%;
+    }
+
+    .link-landing{
+        left: 8%;
     }
 }
 

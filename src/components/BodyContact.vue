@@ -6,10 +6,7 @@
           <h1>Nous contacter</h1>
           <p>Bonjour aventurier, tu as un soucis... avec le site, l'organisation de l'événement ou bien tu as besoin de
             plus de détails.</p>
-          <p>Ou bien tu veux simplement nous faire part de ton ressenti, de tes envies, ou bien encore de ta joie pour
-            la création de cette événement.</p>
-          <p>Alors surtout n'hésite pas, nous essaierons de répondre, au plus de demandes et nous nous ferons un réel
-            plaisir de lire vos messages</p>
+          <p>Alors surtout n'hésite pas, nous essaierons de répondre, au plus de demandes possibles</p>
         </div>
         <a class="envoie-mail" href="mailto:contact@casoni.fr">
             Nous contacter

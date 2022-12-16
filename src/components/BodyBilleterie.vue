@@ -37,7 +37,7 @@ section div:first-of-type {
 section div:last-of-type {
     position: absolute;
     right: 10vw;
-    top: 70%;
+    top: 80%;
 }
 
 section div:last-of-type a {
@@ -46,6 +46,12 @@ section div:last-of-type a {
     border-radius: 50px;
     background: var(--main_color-lt);
     color: var(--second_color-lt);
+}
+
+@media screen and (max-width: 768px) {
+    section div:first-of-type {
+        width: 60vw;
+    }
 }
 
 </style>
