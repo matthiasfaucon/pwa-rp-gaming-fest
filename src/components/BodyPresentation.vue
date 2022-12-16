@@ -232,6 +232,7 @@ section div:nth-of-type(even) h1{
     }
     .title-landing{
         font-size: 1.5rem;
+        top: 50%;
     }   
 
     section div img{
